@@ -54,7 +54,7 @@ for lang in input_method.keys():
 
     ibus_kkc_package_check()
     set_engine()
-    #enable_IM(lang)
-    #input_data(lang)
-    #sleep (5)
-    #enable_en()
+    enable_IM(lang)
+    input_data(lang)
+    sleep (5)
+    enable_en()
